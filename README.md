@@ -33,7 +33,6 @@ Projekts izmanto tīru HTML, CSS un JavaScript, tāpēc nav nepieciešamas papil
 ## Zināmie defekti
 
 - Projekts varētu uzlabot piekļūstamības funkcijas, piemēram, atbalstu ekrāna lasītājiem un tastatūras navigācijai.
-- Nav pievienots automātiskais validācijas tests W3C un Google Lighthouse, kas būtu jāveic, lai uzlabotu projekta kvalitāti.
 
 ## Iespējamie uzlabojumi
 
@@ -44,10 +43,3 @@ Projekts izmanto tīru HTML, CSS un JavaScript, tāpēc nav nepieciešamas papil
 
 - 2025: Daniels Jānis Rupenheits
 - 2025: Artis Reinis Skuja
-
-## Resursi
-
-- [GitHub projekts](https://github.com/rtk2023/riki)
-- [Google Lighthouse](https://pagespeed.web.dev/)
-- [W3C Validator](https://validator.w3.org/)
-- [Piekļūstamības pārbaude](https://wave.webaim.org/)
