@@ -79,7 +79,7 @@ function deleteSelected() {
     elements.splice(index, 1);
     selectedElement.remove();
     selectedElement = null;
-    editor.innerHTML = `<p>Select an element</p>`;
+    editor.innerHTML = `<p>Izvēlies elementu</p>`;
     saveHistory();
   }
 }
@@ -112,10 +112,10 @@ function addComponent(type) {
 }
 
 function getDefaultText(type) {
-  if (type === 'button') return 'Click Me';
-  if (type === 'input') return 'Enter text';
-  if (type === 'textarea') return 'Enter more text...';
-  if (type === 'checkbox') return 'Check me';
+  if (type === 'button') return 'Nospied mani';
+  if (type === 'input') return 'Ievadi tekstu';
+  if (type === 'textarea') return 'Ievadi tekstu...';
+  if (type === 'checkbox') return 'atzīmē mani';
   return '';
 }
 
@@ -235,7 +235,7 @@ function showEditor(el) {
   }
 
   editor.innerHTML = `
-    <label>${type === 'image' ? 'Image URL' : 'Text/Placeholder'}:</label>
+    <label>${type === 'image' ? 'Image URL' : 'Attēla URL'}:</label>
     <input type="text" id="propText" value="${type === 'image' ? currentSrc : currentText}" />
     <label>Font Size (px):</label>
     <input type="number" id="propFontSize" value="${fontSize}" />

@@ -13,22 +13,13 @@
 |-- script.js
 ```
 
-## Uzstādīšana
-
-Lai izpildītu šo projektu lokāli, veiciet šādas darbības:
-
-1. Klonējiet vai lejupielādējiet projektu.
-2. Atveriet `index.html` failu tīmekļa pārlūkā.
-
-Projekts izmanto tīru HTML, CSS un JavaScript, tāpēc nav nepieciešamas papildu bibliotēkas vai rīki.
-
 ## Funkcionalitāte
 
 - **Komponentu pievienošana**: Lietotāji var pievienot dažādus tīmekļa komponentus (pogas, teksta laukus, atzīmēšanas rūtiņas, attēlus).
 - **Pārvietošanas un izmēra maiņas iespējas**: Komponenti ir pārvietojami un maināmi izmērā.
 - **Komponentu īpašību rediģēšana**: Lietotāji var mainīt komponentu tekstu, fontu izmēru, krāsu, platumu un augstumu.
 - **Eksports**: Izveidoto dizainu var eksportēt kā HTML vai JSON kodu.
-- **Saglabāšana un ielāde**: Lietotāji var saglabāt un ielādēt savus projektus.
+- **Saglabāšana un ielāde**: Lietotāji var saglabāt un ielādēt savus projektus lokali.
 
 ## Zināmie defekti
 
