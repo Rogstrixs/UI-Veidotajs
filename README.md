@@ -1,2 +1,53 @@
-# UI-Veidotajs
 
+# UI Veidotājs
+
+## Projekta apraksts
+
+**UI Veidotājs** ir tīmekļa lietotne, kas ļauj lietotājiem veidot dažādas tīmekļa lapas sastāvdaļas, piemēram, pogas, teksta laukus, teksta laukumus, atzīmēšanas rūtiņas un attēlus, izmantojot "drag-and-drop" funkcionalitāti. Lietotāji var arī rediģēt šo komponentu īpašības, piemēram, tekstu, krāsu, fontu izmēru, platumu un augstumu, kā arī eksportēt izveidoto dizainu HTML vai JSON formātā.
+
+### Failu struktūra:
+```
+/projekts
+|-- index.html
+|-- style.css
+|-- script.js
+```
+
+## Uzstādīšana
+
+Lai izpildītu šo projektu lokāli, veiciet šādas darbības:
+
+1. Klonējiet vai lejupielādējiet projektu.
+2. Atveriet `index.html` failu tīmekļa pārlūkā.
+
+Projekts izmanto tīru HTML, CSS un JavaScript, tāpēc nav nepieciešamas papildu bibliotēkas vai rīki.
+
+## Funkcionalitāte
+
+- **Komponentu pievienošana**: Lietotāji var pievienot dažādus tīmekļa komponentus (pogas, teksta laukus, atzīmēšanas rūtiņas, attēlus).
+- **Pārvietošanas un izmēra maiņas iespējas**: Komponenti ir pārvietojami un maināmi izmērā.
+- **Komponentu īpašību rediģēšana**: Lietotāji var mainīt komponentu tekstu, fontu izmēru, krāsu, platumu un augstumu.
+- **Eksports**: Izveidoto dizainu var eksportēt kā HTML vai JSON kodu.
+- **Saglabāšana un ielāde**: Lietotāji var saglabāt un ielādēt savus projektus.
+
+## Zināmie defekti
+
+- Projekts varētu uzlabot piekļūstamības funkcijas, piemēram, atbalstu ekrāna lasītājiem un tastatūras navigācijai.
+- Nav pievienots automātiskais validācijas tests W3C un Google Lighthouse, kas būtu jāveic, lai uzlabotu projekta kvalitāti.
+
+## Iespējamie uzlabojumi
+
+- Papildu komponentu pievienošana, piemēram, tabulas, kartes.
+- Lietotāja interfeisa pilnveidošana, lai uzlabotu piekļūstamību un responsivitāti.
+
+## Autori
+
+- 2025: Daniels Jānis Rupenheits
+- 2025: Artis Reinis Skuja
+
+## Resursi
+
+- [GitHub projekts](https://github.com/rtk2023/riki)
+- [Google Lighthouse](https://pagespeed.web.dev/)
+- [W3C Validator](https://validator.w3.org/)
+- [Piekļūstamības pārbaude](https://wave.webaim.org/)
